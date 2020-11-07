@@ -1,0 +1,43 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+      flex-direction: column;
+      background-color: #95dada;
+      border: 5px solid grey;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.25s ease-out;
+      color: white;
+      font-weight: 500;
+      background-size: cover;
+      overflow-wrap: break-word;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+  
+  /* Add some padding inside the card container */
+  .MovieDetails{
+      height: 50px;
+      width: 200px;
+      background-color: #343a40;
+      margin: 150px 0px 0 0;
+      text-align: center;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      opacity: 75%;
+  }
+  
+  .MovieYear{
+      overflow-wrap: break-word;
+  }

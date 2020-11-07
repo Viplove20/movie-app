@@ -1,0 +1,52 @@
+.MoviesTabPage {    
+    height: 300px !important;
+    display: flex;
+    overflow-x: auto;
+    /* overflow: hidden; */
+    
+}
+
+.TvTabPage{
+    height: 300px !important;
+    display: flex;
+    overflow-x: auto;
+    
+}
+ /* ::-webkit-scrollbar {
+    width:0;
+   background: transparent;
+}  */
+
+.movieCarouselArea{
+   /*  margin-top: 20px; */
+    height:300px
+    
+}
+
+.TvCarouselArea{
+    margin-top: 30px;
+    height:300px
+}
+/* .tvShowsCarousel{
+    margin: 0px 5px 20px 5px;
+} */
+.movieHeader{
+    background-color: black;
+    color:rgb(206, 204, 204);
+    padding: 0;
+    margin: 0;
+}
+
+.TvSeriesHeader{
+    background-color: black;
+    color: rgb(206, 204, 204);
+    padding: 0;
+    margin: 0;
+}
+#h3{
+    padding: 10px
+}
+
+@media(max-width: 400px){
+    
+}
